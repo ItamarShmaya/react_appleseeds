@@ -7,6 +7,7 @@ title, description and links
 
 import React from "react";
 import faker from "@faker-js/faker";
+import "../styles/ex4.2.css";
 
 export class Exercise4_2 extends React.Component {
   render() {

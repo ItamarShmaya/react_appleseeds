@@ -12,6 +12,7 @@ Box 3 two Box4 components.
 */
 
 import React from "react";
+import "../styles/ex3.1.css";
 
 class Box1 extends React.Component {
   render() {

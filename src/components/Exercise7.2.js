@@ -6,6 +6,7 @@ The box will appear or disappear when the button is clicked.
 */
 
 import React from "react";
+import "../styles/ex7.2.css";
 
 export class Exercise7_2 extends React.Component {
   constructor() {

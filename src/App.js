@@ -1,11 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
-// import "./styles/ex3.1.css";
-// import "./styles/ex3.2.css";
-// import "./styles/ex4.2.css";
-// import "./styles/ex7.2.css";
-import "./styles/ex7.3.css";
+
 import { Exercise2_1 } from "./components/Exercise2.1";
 import { Exercise2_2 } from "./components/Exercise2.2";
 import { Exercise3_1 } from "./components/Exercise3.1";
@@ -15,6 +11,10 @@ import { Exercise4_2 } from "./components/Exercise4.2";
 import { Exercise7_1 } from "./components/Exercise7.1";
 import { Exercise7_2 } from "./components/Exercise7.2";
 import { Exercise7_3 } from "./components/Exercise7.3";
+import { Exercise8_1 } from "./components/Exercise8.1";
+import { Exercise8_2 } from "./components/Exercise8.2";
+import { Exercise8_3 } from "./components/Exercise8.3";
+import { Exercise9_1 } from "./components/Exercise9.1";
 
 class App extends React.Component {
   render() {
@@ -55,7 +55,12 @@ class App extends React.Component {
     // );
     // return <Exercise7_1 />;
     // return <Exercise7_2 />;
-    return <Exercise7_3 />;
+    // return <Exercise7_3 />;
+    // return <Exercise8_1 />;
+    // return <Box animation="animate" boxDesign="box1" />;
+    // return <Exercise8_2 />;
+    // return <Exercise8_3 />;
+    return <Exercise9_1 />;
   }
 }
 
