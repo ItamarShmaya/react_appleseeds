@@ -11,7 +11,7 @@ If the counter is 0 the label will be a black color.
 */
 
 import React from "react";
-import "../styles/ex7.3.css";
+// import "../styles/ex7.3.css";
 
 export class Exercise7_3 extends React.Component {
   constructor(props) {

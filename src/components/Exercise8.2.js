@@ -6,7 +6,7 @@ after the page loads, and then disappears from the DOM after 4 seconds.
 */
 
 import React from "react";
-import "../styles/ex8.2.css";
+// import "../styles/ex8.2.css";
 
 export class Exercise8_2 extends React.Component {
   state = { render: false };

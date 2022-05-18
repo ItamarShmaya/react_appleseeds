@@ -14,7 +14,7 @@ them when the program starts.
 */
 
 import React from "react";
-import "../styles/ex9.1.css";
+// import "../styles/ex9.1.css";
 
 export class Exercise9_1 extends React.Component {
   state = { render: true };

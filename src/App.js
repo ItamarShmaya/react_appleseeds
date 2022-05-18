@@ -15,6 +15,9 @@ import { Exercise8_1 } from "./components/Exercise8.1";
 import { Exercise8_2 } from "./components/Exercise8.2";
 import { Exercise8_3 } from "./components/Exercise8.3";
 import { Exercise9_1 } from "./components/Exercise9.1";
+import { Exercise11_1 } from "./components/Exercise11.1";
+import { Exercise11_2 } from "./components/Exercise11.2";
+import { Exercise11_3 } from "./components/Exercise11.3";
 
 class App extends React.Component {
   render() {
@@ -60,7 +63,10 @@ class App extends React.Component {
     // return <Box animation="animate" boxDesign="box1" />;
     // return <Exercise8_2 />;
     // return <Exercise8_3 />;
-    return <Exercise9_1 />;
+    // return <Exercise9_1 />;
+    // return <Exercise11_1 />;
+    // return <Exercise11_2 />;
+    return <Exercise11_3 />;
   }
 }
 

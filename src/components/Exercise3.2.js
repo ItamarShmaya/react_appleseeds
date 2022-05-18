@@ -14,7 +14,7 @@ children.
 */
 
 import React from "react";
-import "../styles/ex3.2.css";
+// import "../styles/ex3.2.css";
 
 export class Exercise3_2 extends React.Component {
   render() {
