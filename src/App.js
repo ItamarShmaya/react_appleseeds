@@ -18,6 +18,9 @@ import { Exercise9_1 } from "./components/Exercise9.1";
 import { Exercise11_1 } from "./components/Exercise11.1";
 import { Exercise11_2 } from "./components/Exercise11.2";
 import { Exercise11_3 } from "./components/Exercise11.3";
+import Exercise12_1 from "./components/Exercise12.1/Exercise12.1";
+import Exercise13_1 from "./components/Exercise13_1/Exercise13_1";
+import Exercise13_2 from "./components/Exercise13_2/Exercise13_2";
 
 class App extends React.Component {
   render() {
@@ -66,7 +69,10 @@ class App extends React.Component {
     // return <Exercise9_1 />;
     // return <Exercise11_1 />;
     // return <Exercise11_2 />;
-    return <Exercise11_3 />;
+    // return <Exercise11_3 />;
+    // return <Exercise12_1 />;
+    // return <Exercise13_1 />;
+    return <Exercise13_2 />;
   }
 }
 
