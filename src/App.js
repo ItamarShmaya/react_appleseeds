@@ -23,6 +23,7 @@ import Exercise13_1 from "./components/Exercise13_1/Exercise13_1";
 import Exercise13_2 from "./components/Exercise13_2/Exercise13_2";
 import Exercise14_1 from "./components/Exercise14.1/Exercise14_1";
 import Exercise14_2 from "./components/Exercise14.2/Exercise14_2";
+import Exercise16_1 from "./components/Exercise16.1/Exercise16_1";
 
 class App extends React.Component {
   render() {
@@ -76,7 +77,8 @@ class App extends React.Component {
     // return <Exercise13_1 />;
     // return <Exercise13_2 />;
     // return <Exercise14_1 />;
-    return <Exercise14_2 />;
+    // return <Exercise14_2 />;
+    return <Exercise16_1 />;
   }
 }
 
