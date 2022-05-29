@@ -2,28 +2,33 @@ import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
 
-import { Exercise2_1 } from "./components/Exercise2.1";
-import { Exercise2_2 } from "./components/Exercise2.2";
-import { Exercise3_1 } from "./components/Exercise3.1";
-import { Exercise3_2 } from "./components/Exercise3.2";
-import { Execrise4_1 } from "./components/Exercise4.1";
-import { Exercise4_2 } from "./components/Exercise4.2";
-import { Exercise7_1 } from "./components/Exercise7.1";
-import { Exercise7_2 } from "./components/Exercise7.2";
-import { Exercise7_3 } from "./components/Exercise7.3";
-import { Exercise8_1 } from "./components/Exercise8.1";
-import { Exercise8_2 } from "./components/Exercise8.2";
-import { Exercise8_3 } from "./components/Exercise8.3";
-import { Exercise9_1 } from "./components/Exercise9.1";
-import { Exercise11_1 } from "./components/Exercise11.1";
-import { Exercise11_2 } from "./components/Exercise11.2";
-import { Exercise11_3 } from "./components/Exercise11.3";
-import Exercise12_1 from "./components/Exercise12.1/Exercise12.1";
-import Exercise13_1 from "./components/Exercise13_1/Exercise13_1";
-import Exercise13_2 from "./components/Exercise13_2/Exercise13_2";
-import Exercise14_1 from "./components/Exercise14.1/Exercise14_1";
-import Exercise14_2 from "./components/Exercise14.2/Exercise14_2";
-import Exercise16_1 from "./components/Exercise16.1/Exercise16_1";
+// import { Exercise2_1 } from "./components/Exercise2.1";
+// import { Exercise2_2 } from "./components/Exercise2.2";
+// import { Exercise3_1 } from "./components/Exercise3.1";
+// import { Exercise3_2 } from "./components/Exercise3.2";
+// import { Execrise4_1 } from "./components/Exercise4.1";
+// import { Exercise4_2 } from "./components/Exercise4.2";
+// import { Exercise7_1 } from "./components/Exercise7.1";
+// import { Exercise7_2 } from "./components/Exercise7.2";
+// import { Exercise7_3 } from "./components/Exercise7.3";
+// import { Exercise8_1 } from "./components/Exercise8.1";
+// import { Exercise8_2 } from "./components/Exercise8.2";
+// import { Exercise8_3 } from "./components/Exercise8.3";
+// import { Exercise9_1 } from "./components/Exercise9.1";
+// import { Exercise11_1 } from "./components/Exercise11.1";
+// import { Exercise11_2 } from "./components/Exercise11.2";
+// import { Exercise11_3 } from "./components/Exercise11.3";
+// import Exercise12_1 from "./components/Exercise12.1/Exercise12.1";
+// import Exercise13_1 from "./components/Exercise13_1/Exercise13_1";
+// import Exercise13_2 from "./components/Exercise13_2/Exercise13_2";
+// import Exercise14_1 from "./components/Exercise14.1/Exercise14_1";
+// import Exercise14_2 from "./components/Exercise14.2/Exercise14_2";
+// import Exercise16_1 from "./components/Exercise16.1/Exercise16_1";
+import Exercise18_1 from "./components/Exercise18.1/Exercise18_1";
+import text from "./components/Exercise18.1/text.js";
+// import Exercise18_2 from "./components/Exercise18.2/Exercise18_2";
+// import Exercise18_3 from "./components/Exercise18.3/Exercise18_3";
+// import Exercise18_4 from "./components/Exercise18.4/Exercise18_4";
 
 class App extends React.Component {
   render() {
@@ -78,7 +83,11 @@ class App extends React.Component {
     // return <Exercise13_2 />;
     // return <Exercise14_1 />;
     // return <Exercise14_2 />;
-    return <Exercise16_1 />;
+    // return <Exercise16_1 />;
+    return <Exercise18_1 text={text} maxLength={100} />;
+    // return <Exercise18_2 />;
+    // return <Exercise18_3 />;
+    // return <Exercise18_4 />;
   }
 }
 
