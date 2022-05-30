@@ -18,17 +18,22 @@ import React from "react";
 // import { Exercise11_1 } from "./components/Exercise11.1";
 // import { Exercise11_2 } from "./components/Exercise11.2";
 // import { Exercise11_3 } from "./components/Exercise11.3";
-// import Exercise12_1 from "./components/Exercise12.1/Exercise12.1";
+import Exercise12_1 from "./components/Exercise12.1/Exercise12.1";
 // import Exercise13_1 from "./components/Exercise13_1/Exercise13_1";
 // import Exercise13_2 from "./components/Exercise13_2/Exercise13_2";
 // import Exercise14_1 from "./components/Exercise14.1/Exercise14_1";
 // import Exercise14_2 from "./components/Exercise14.2/Exercise14_2";
 // import Exercise16_1 from "./components/Exercise16.1/Exercise16_1";
-import Exercise18_1 from "./components/Exercise18.1/Exercise18_1";
+// import Exercise18_1 from "./components/Exercise18.1/Exercise18_1";
 import text from "./components/Exercise18.1/text.js";
 // import Exercise18_2 from "./components/Exercise18.2/Exercise18_2";
 // import Exercise18_3 from "./components/Exercise18.3/Exercise18_3";
 // import Exercise18_4 from "./components/Exercise18.4/Exercise18_4";
+// import Exercise19_1 from "./components/Exercise19.1/Exercise19_1";
+// import Exercise19_2 from "./components/Exercise19.2/Exercise19_2";
+// import Exercise19_3 from "./components/Exercise19.3/Exercise19_3";
+// import Exercise19_4_12_1 from "./components/Exercise19.4/Exercise19_4_12_1";
+import Exercise19_4_13_1 from "./components/Exercise19.4/Exercise19_4_13_1";
 
 class App extends React.Component {
   render() {
@@ -84,10 +89,15 @@ class App extends React.Component {
     // return <Exercise14_1 />;
     // return <Exercise14_2 />;
     // return <Exercise16_1 />;
-    return <Exercise18_1 text={text} maxLength={100} />;
+    // return <Exercise18_1 text={text} maxLength={100} />;
     // return <Exercise18_2 />;
     // return <Exercise18_3 />;
     // return <Exercise18_4 />;
+    // return <Exercise19_1 />;
+    // return <Exercise19_2 />;
+    // return <Exercise19_3 />;
+    // return <Exercise19_4_12_1 />;
+    return <Exercise19_4_13_1 />;
   }
 }
 
