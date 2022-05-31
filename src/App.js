@@ -33,7 +33,11 @@ import text from "./components/Exercise18.1/text.js";
 // import Exercise19_2 from "./components/Exercise19.2/Exercise19_2";
 // import Exercise19_3 from "./components/Exercise19.3/Exercise19_3";
 // import Exercise19_4_12_1 from "./components/Exercise19.4/Exercise19_4_12_1";
-import Exercise19_4_13_1 from "./components/Exercise19.4/Exercise19_4_13_1";
+// import Exercise19_4_13_1 from "./components/Exercise19.4/Exercise19_4_13_1";
+// import Exercise20_1 from "./components/Exercise20.1/Exercise20_1";
+// import Exercise21_1 from "./components/Exercise21.1/Exercise21_1";
+import Exercise21_2 from "./components/Exercise21.2/Exercise21_2";
+// import Exercise21_3 from "./components/Exercise21.3/Exercise21_3";
 
 class App extends React.Component {
   render() {
@@ -97,7 +101,11 @@ class App extends React.Component {
     // return <Exercise19_2 />;
     // return <Exercise19_3 />;
     // return <Exercise19_4_12_1 />;
-    return <Exercise19_4_13_1 />;
+    // return <Exercise19_4_13_1 />;
+    // return <Exercise20_1 />;
+    // return <Exercise21_1 />;
+    return <Exercise21_2 />;
+    // return <Exercise21_3 />;
   }
 }
 
